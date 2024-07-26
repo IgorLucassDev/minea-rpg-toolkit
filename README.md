@@ -38,12 +38,40 @@ You can generate random names by fetching `/names/random` route
 
 const randomName = async () =>{
   const data = await fetch('localhost:3000/names/random').json();
+  console.log(data)
 }
 
 
-//Output:
+// Output:
 // {
 //    "name": "Vesper",
 //    "surname": "Yewgrove"
 // }
+```
+
+You also can update name list
+```
+└───src
+    └───routes
+        ├───classes
+        ├───dice
+        └───name
+            └───list
+                └─── nameList.js
+                └─── surNames.js
+```
+
+**nameList.js**
+```javascript
+const nameList = [
+    "Ana",
+    "Bruno",
+    "Carlos",
+    "Daniela",
+
+    // You can add more options here
+
+]
+
+export default nameList;
 ```
