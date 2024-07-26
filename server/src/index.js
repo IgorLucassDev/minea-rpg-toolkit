@@ -3,6 +3,7 @@ import express from 'express';
 // Import routes
 import name from './routes/name/name.js';
 import dice from './routes/dice/dice.js';
+import classes from './routes/classes/classes.js';
 
 const app = express();
 app.use(express.json());
@@ -13,6 +14,7 @@ app.get('/ping', (req, res) => {
 
 app.use('/names', name)
 app.use('/dice', dice)
+app.use('/class', classes)
 
 
 app.listen(3000, () =>{
