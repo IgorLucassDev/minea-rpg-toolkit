@@ -75,3 +75,41 @@ const nameList = [
 
 export default nameList;
 ```
+
+### Classes
+
+You can generate random classes by fetch `/class/random` route
+
+It´s will return a random class
+
+
+**Example usage**
+
+```javascript
+
+const randomClass = async () =>{
+  const data = await fetch('localhost:3000/class/random').json();
+  console.log(data)
+}
+
+
+// Output:
+// {
+//    "class": "Wizzard",
+// }
+
+```
+
+Same as names you can edit class list in 
+
+```
+└───src
+    └───routes
+        ├───classes
+           └─── classes.js
+           └─── classList.js
+        ├───dice
+        └───name 
+```
+
+
