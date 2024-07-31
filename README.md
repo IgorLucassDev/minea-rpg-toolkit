@@ -1,4 +1,17 @@
-# minea-rpg-toolkit
+
+
+<br>
+
+<h1 align="center">Minea RPG Toolkit</h1>
+<p align="center">
+  <strong>Um conjunto de ferramentas API para RPG</strong>
+</p>
+<p align="center">
+  <a href="https://github.com/IgorLucassDev/minea-rpg-toolkit/issues"><img src="https://img.shields.io/github/issues/IgorLucassDev/minea-rpg-toolkit" alt="Issues"></a>
+  <a href="https://github.com/IgorLucassDev/minea-rpg-toolkit/stargazers"><img src="https://img.shields.io/github/stars/IgorLucassDev/minea-rpg-toolkit" alt="Stars"></a>
+  <a href="https://github.com/IgorLucassDev/minea-rpg-toolkit/network/members"><img src="https://img.shields.io/github/forks/IgorLucassDev/minea-rpg-toolkit" alt="Forks"></a>
+</p>
+</div>
 
 ## Instalation and Run
 #### Clonning repository
